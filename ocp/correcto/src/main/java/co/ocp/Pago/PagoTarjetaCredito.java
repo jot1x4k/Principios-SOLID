@@ -1,0 +1,10 @@
+package co.ocp.Pago;
+
+public class PagoTarjetaCredito implements IPago {
+
+    @Override
+    public void ProcesarPago() {
+        System.out.println("Procesando el pago con tarjeta de credito...");
+    }
+
+}
