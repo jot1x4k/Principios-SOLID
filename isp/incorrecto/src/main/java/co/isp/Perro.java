@@ -16,5 +16,4 @@ public class Perro implements IAnimal {
     public void Nadar() {
         System.out.println("El perro esta nadando");
     }
-    
 }
